@@ -44,6 +44,7 @@ nav .left a {
 }
 
 nav .right a {
+  font-size: 22px;
   color: var(--text-color);
   margin: 0 10px;
 }
@@ -131,6 +132,10 @@ nav .right a span {
   font-size: 35px;
 }
 
+.skills-section p{
+  font-size: 22px;
+}
+
 .skills-section .text {
   text-align: center;
   margin-bottom: 20px;
@@ -173,7 +178,7 @@ nav .right a span {
   text-align: center;
   justify-content: center;
   font-size: 22px;
-  /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+ 
 }
 
 .About-section h1 {
@@ -209,6 +214,7 @@ nav .right a span {
 
 #contact .group label {
   margin-bottom: 15px;
+  font-size: 22px;
 }
 
 .contact-section .group {
