@@ -26,6 +26,10 @@ a {
   color: var(--link-color);
   text-decoration: none;
 }
+img{
+  object-fit:cover ;
+
+}
 
 /* NAVBAR */
 nav {
