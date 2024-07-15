@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&display=swap');
 :root {
   --text-color: #1a1c20;
   --link-color: #4a76ee;
@@ -8,6 +9,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Cabin", sans-serif;
 }
 
 html {
@@ -15,7 +17,7 @@ html {
 }
 
 body {
-  /* font-family: sans-serif; */
+ 
   color: var(--text-color);
   background-color: var(--background-color);
   max-width: 1400px;
@@ -46,6 +48,8 @@ nav .left a {
   color: var(--text-color);
   font-size: 22px;
   font-weight: bold;
+  
+  
 }
 
 nav .right a {
@@ -88,7 +92,7 @@ nav .right a span {
 .hero-section p {
   color: var(--link-color);
   font-size: 50px;
-  /* font-family: fantasy; */
+  
 }
 
 .hero-section .text .links {
@@ -101,7 +105,6 @@ nav .right a span {
   display: inline-block;
   padding: 20px;
   width: 30%;
-  /* border: 2px solid var(--link-color); */
   background-color: var(--link-color);
   border-radius: 5px;
   margin-right: 10px;
@@ -232,7 +235,6 @@ nav .right a span {
   flex: 3;
   display: flex;
   flex-direction: column;
-  /* align-items: center; */
   justify-content: center;
 
 }
@@ -245,6 +247,7 @@ nav .right a span {
   border: 2px solid var(--link-color);
   background-color: transparent;
   padding: 1.4rem;
+  font-size: 22px;
   margin-bottom: 15px;
   width: 100%;
   border-radius: 5px;
