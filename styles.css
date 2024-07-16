@@ -29,9 +29,9 @@ a {
   text-decoration: none;
 }
 
-img {
+.headshot img {
   object-fit: cover;
-
+  padding: 1px;
 }
 
 /* NAVBAR */
