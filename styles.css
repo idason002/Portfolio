@@ -22,6 +22,7 @@ body {
   background-color: var(--background-color);
   max-width: 1400px;
   margin: 0 auto;
+  
 }
 
 a {
@@ -114,7 +115,7 @@ nav .right a span {
 }
 
 .hero-section .text .links a:hover {
-  background-color: #000000;
+  background-color: #06182c;
 }
 
 .hero-section .headshot {
