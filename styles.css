@@ -87,12 +87,12 @@ nav .right a span {
 }
 
 .hero-section .text h5 {
-  /* font-size: 20px; */
+  font-size: 20px;
 }
 
 .hero-section p {
   color: var(--link-color);
-  /* font-size: 50px; */
+  font-size: 50px;
   
 }
 
